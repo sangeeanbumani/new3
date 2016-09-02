@@ -30,7 +30,7 @@ printf("%d",temp->data);
 temp=temp->next;
 }
 }
-int main()
+void main()
 {
 struct node*head=NULL;
 push(&head,20);
@@ -42,4 +42,5 @@ reverse(&head);
 printf("\n Reverse linked List \n");
 printList(head);
 getchar();
+getch();
 }
